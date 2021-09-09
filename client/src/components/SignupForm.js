@@ -42,8 +42,8 @@ const SignupForm = () => {
       //   throw new Error('something went wrong!');
       // }
 
-      // const { token, user } = await response.json();
-      console.log(user);
+      // // const { token, user } = await response.json();
+      // console.log(User);
 
       Auth.login(token);
     } catch (err) {
